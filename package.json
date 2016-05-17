@@ -1,6 +1,6 @@
 {
-  "name": "conradirwin-mousetrap",
-  "version": "1.5.3-ci.1",
+  "name": "superhuman-mousetrap",
+  "version": "1.5.3-sh.1",
   "description": "Simple library for handling keyboard shortcuts",
   "main": "mousetrap.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ConradIrwin/mousetrap.git"
+    "url": "git://github.com/superhuman/mousetrap.git"
   },
   "keywords": [
     "keyboard",

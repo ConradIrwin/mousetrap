@@ -727,16 +727,16 @@
         }
 
         /**
-         * called to set a 1 second timeout on the specified sequence
+         * called to set a 2 second timeout on the specified sequence
          *
-         * this is so after each key press in the sequence you have 1 second
+         * this is so after each key press in the sequence you have 2 second
          * to press the next key before you have to start over
          *
          * @returns void
          */
         function _resetSequenceTimer() {
             clearTimeout(_resetTimer);
-            _resetTimer = setTimeout(_resetSequences, 1000);
+            _resetTimer = setTimeout(_resetSequences, 2000);
         }
 
         /**
